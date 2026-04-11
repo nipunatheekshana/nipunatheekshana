@@ -14,20 +14,16 @@ type Developer = {
 const nipunaTheekshana: Developer = {
   name: "Nipuna Theekshana",
   currentlyWorkingOn:
-    "Developing and improving ERP systems like Reococo and Seafood Pro, " +
-    "focusing on integrating full-stack solutions using Laravel, PHP, and MS SQL.",
+    "Building full-stack solutions across ERP systems (Reococo & Seafood Pro) and analytics dashboards, " +
+    "using Nuxt, Vue, React, Frappe, MS SQL, and Laravel.",
   lookingToCollaborateOn:
     "Open-source projects related to automation, ERP systems, or AI-driven development tools.",
-  lookingForHelpWith:
-    "Optimizing database queries and improving backend performance in large-scale web applications.",
+  lookingForHelpWith: "To make the world a better place with my keyboard.",
   currentlyLearning:
     "Advanced AI applications in software development, " +
     "as well as performance testing and automation frameworks.",
-  askMeAbout:
-    "Full-stack development, Laravel, and implementing ERP solutions for different industries.",
-  funFact:
-    "I've been involved in fitness and bodybuilding, " +
-    "managing a Facebook page for supplements and personal training.",
+  askMeAbout: "Full-stack development, Node | NUXT | Vue | Frappe | React | Next | Laravel",
+  funFact: "Gym is my second home.",
 };
 ```
 
