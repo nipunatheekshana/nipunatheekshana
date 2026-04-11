@@ -1,8 +1,16 @@
 # 💫 About Me:
 
 ```typescript
+type Education = {
+  qualification: string;
+  field: string;
+  grade?: string;
+  status: "completed" | "in-progress";
+};
+
 type Developer = {
   name: string;
+  education: Education[];
   currentlyWorkingOn: string;
   lookingToCollaborateOn: string;
   lookingForHelpWith: string;
@@ -13,6 +21,11 @@ type Developer = {
 
 const nipunaTheekshana: Developer = {
   name: "Nipuna Theekshana",
+  education: [
+    { qualification: "Diploma",    field: "Software Engineering",                  status: "completed" },
+    { qualification: "HND",        field: "Software Engineering",                  status: "completed" },
+    { qualification: "B.Eng",      field: "Software Engineering", grade: "Second Upper Class", status: "completed" },
+  ],
   currentlyWorkingOn:
     "Building full-stack solutions across ERP systems , Automation and analytics dashboards, " +
     "using Nuxt, Vue, React, Frappe, MS SQL, and Laravel.",
