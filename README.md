@@ -43,7 +43,7 @@ const nipunaTheekshana: Developer = {
     "Open-source projects related to automation, ERP systems, or AI-driven development tools.",
   lookingForHelpWith: "To make the world a better place with my keyboard.",
   currentlyLearning:
-    "Advanced AI applications in software development, "
+    "Advanced AI applications in software development, ",
   askMeAbout: "Full-stack development, Node | NUXT | Vue | Frappe | React | Next | Laravel",
   funFact: "Gym is my second home.",
 };
