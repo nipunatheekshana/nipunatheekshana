@@ -11,7 +11,6 @@ type Education = {
 type Experience = {
   since: number;
   years: number;
-  and: "counting...";
 };
 
 type Developer = {
@@ -36,7 +35,6 @@ const nipunaTheekshana: Developer = {
   experience: {
     since: 2018,
     years: new Date().getFullYear() - 2018,
-    and: "counting...",
   },
   currentlyWorkingOn:
     "Building full-stack solutions across ERP systems , Automation and analytics dashboards, " +
