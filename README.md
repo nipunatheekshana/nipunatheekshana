@@ -22,8 +22,8 @@ type Developer = {
 const nipunaTheekshana: Developer = {
   name: "Nipuna Theekshana",
   education: [
-    { qualification: "Diploma",    field: "Software Engineering",                  status: "completed" },
-    { qualification: "HND",        field: "Software Engineering",                  status: "completed" },
+    { qualification: "Diploma",    field: "Software Engineering", grade: "Distinction",         status: "completed" },
+    { qualification: "HND",        field: "Software Engineering", grade: "Distinction",         status: "completed" },
     { qualification: "B.Eng",      field: "Software Engineering", grade: "Second Upper Class", status: "completed" },
   ],
   currentlyWorkingOn:
