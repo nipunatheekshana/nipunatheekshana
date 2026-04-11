@@ -8,9 +8,16 @@ type Education = {
   status: "completed" | "in-progress";
 };
 
+type Experience = {
+  since: number;
+  years: number;
+  and: "counting...";
+};
+
 type Developer = {
   name: string;
   education: Education[];
+  experience: Experience;
   currentlyWorkingOn: string;
   lookingToCollaborateOn: string;
   lookingForHelpWith: string;
@@ -26,6 +33,11 @@ const nipunaTheekshana: Developer = {
     { qualification: "HND",        field: "Software Engineering", grade: "Distinction",         status: "completed" },
     { qualification: "B.Eng",      field: "Software Engineering", grade: "Second Upper Class", status: "completed" },
   ],
+  experience: {
+    since: 2018,
+    years: new Date().getFullYear() - 2018,
+    and: "counting...",
+  },
   currentlyWorkingOn:
     "Building full-stack solutions across ERP systems , Automation and analytics dashboards, " +
     "using Nuxt, Vue, React, Frappe, MS SQL, and Laravel.",
