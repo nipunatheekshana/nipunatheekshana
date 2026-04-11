@@ -1,7 +1,7 @@
 # 💫 About Me:
 
 ```typescript
-interface Developer {
+type Developer = {
   name: string;
   currentlyWorkingOn: string;
   lookingToCollaborateOn: string;
