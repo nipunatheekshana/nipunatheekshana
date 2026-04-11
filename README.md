@@ -14,14 +14,13 @@ type Developer = {
 const nipunaTheekshana: Developer = {
   name: "Nipuna Theekshana",
   currentlyWorkingOn:
-    "Building full-stack solutions across ERP systems (Reococo & Seafood Pro) and analytics dashboards, " +
+    "Building full-stack solutions across ERP systems , Automation and analytics dashboards, " +
     "using Nuxt, Vue, React, Frappe, MS SQL, and Laravel.",
   lookingToCollaborateOn:
     "Open-source projects related to automation, ERP systems, or AI-driven development tools.",
   lookingForHelpWith: "To make the world a better place with my keyboard.",
   currentlyLearning:
-    "Advanced AI applications in software development, " +
-    "as well as performance testing and automation frameworks.",
+    "Advanced AI applications in software development, "
   askMeAbout: "Full-stack development, Node | NUXT | Vue | Frappe | React | Next | Laravel",
   funFact: "Gym is my second home.",
 };
